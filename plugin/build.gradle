@@ -51,7 +51,7 @@ compileJava.dependsOn(runJFlex)
   }
 }
 
-clean.dependsOn(cleanJFlex)
+// clean.dependsOn(cleanJFlex)
 
 prepareSandbox.dependsOn(compileEta)
 
